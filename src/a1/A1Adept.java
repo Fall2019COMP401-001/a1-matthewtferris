@@ -61,8 +61,8 @@ public class A1Adept {
 		
 		double average = totalAmount / numberOfCustomers;
 		
-		System.out.println("Biggest: " + Who + "(" + String.format("%.2f", Biggest) + ")");
-		System.out.println("Smallest: " + Who2 + "(" + String.format("%.2f", Smallest) + ")");
+		System.out.println("Biggest: " + Who + " (" + String.format("%.2f", Biggest) + ")");
+		System.out.println("Smallest: " + Who2 + " (" + String.format("%.2f", Smallest) + ")");
 		System.out.println("Average: " + String.format("%.2f", average));
 		
 		scan.close();
