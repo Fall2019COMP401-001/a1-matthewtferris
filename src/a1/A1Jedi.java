@@ -40,7 +40,7 @@ public class A1Jedi {
 			if (customersEachItem[z] == 0) {
 				System.out.println("No customers bought " + itemList[z]);
 			} else {
-				System.out.println("" + customersEachItem[z] + " customers bought " + totalOfEachItem[z]);
+				System.out.println("" + customersEachItem[z] + " customers bought " +totalOfEachItem[z] + " " + itemList[z]);
 			}
 		}
 		
